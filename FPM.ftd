@@ -1,0 +1,21 @@
+-- import: fpm
+
+-- fpm.package: fifthtry.github.io/caffeine
+zip: github.com/fifthtry/caffeine/archive/refs/heads/main.zip
+
+-- fpm.dependency: fifthtry.github.io/doc-site as ds
+-- fpm.dependency: fifthtry.github.io/resume
+
+-- fpm.auto-import: ds
+-- fpm.auto-import: fpm
+-- fpm.auto-import: fifthtry.github.io/caffeine/FPM/config
+
+-- fpm.sitemap:
+
+# Home: /index.html
+
+# With-toc: /ds-sample/
+- Sample Toc Item: /ds-sample/
+/- Howto: /-/fifthtry.github.io/resume/how-to/
+  name: onepage
+# Full Page: /full-page/

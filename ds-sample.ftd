@@ -1,0 +1,17 @@
+-- import: fifthtry.github.io/caffeine as caffeine
+-- import: fifthtry.github.io/resume/sample as s
+
+
+
+
+
+
+
+
+
+
+-- ds.page:
+widthfill: true
+
+-- caffeine.show-resume:
+resume: $s.john-doe
